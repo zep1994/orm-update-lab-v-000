@@ -55,5 +55,5 @@ def save
   end
   
   def self.find_by_name(name)
-    select 
+    sql = "UPDATE students SET name = ?, grade = ? WHERE id = ?"
   end
