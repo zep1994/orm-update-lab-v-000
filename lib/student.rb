@@ -30,6 +30,6 @@ def save
       self.update
     else
       sql = <<-SQL
-      
+      Insert I
 end
 end
