@@ -55,5 +55,5 @@ def save
   end
   
   def self.find_by_name(name)
-    
+    select 
   end
