@@ -31,6 +31,7 @@ def save
     else
       sql = <<-SQL
       INSERT INTO students (name, grade)
-      
+      student.save
+      student
 end
 end
