@@ -30,6 +30,6 @@ def save
       self.update
     else
       sql = <<-SQL
-      INSERT INTO 
+      INSERT INTO students
 end
 end
