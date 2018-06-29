@@ -29,6 +29,6 @@ def save
     if self.id 
       self.update
     else
-      sql 
+      sql = <<
 end
 end
