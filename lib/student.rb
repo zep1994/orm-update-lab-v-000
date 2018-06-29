@@ -45,3 +45,5 @@ def save
       student.save
       student
   end
+  
+  def self.
